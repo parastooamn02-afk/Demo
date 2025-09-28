@@ -1,0 +1,148 @@
+/* تم دارک شبیه Copilot */
+html.dark {
+  --cp-bg: #0d1117;
+  --cp-surface: #161b22;
+  --cp-text: #c9d1d9;
+  --cp-muted: #8b949e;
+  --cp-primary: #58a6ff;
+  --cp-accent: #1f6feb;
+  --cp-border: rgba(110,118,129,0.2);
+  --cp-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+html.dark body {
+  background-color: var(--cp-bg);
+  color: var(--cp-text);
+}
+
+html.dark .heading::before {
+  background: var(--cp-border);
+}
+
+html.dark .heading span {
+  background: var(--cp-surface);
+  color: var(--cp-text);
+}
+
+html.dark .header,
+html.dark .header .header-1,
+html.dark .header .header-2 {
+  background-color: var(--cp-surface);
+  border-bottom: 1px solid var(--cp-border);
+  color: var(--cp-text);
+}
+
+html.dark .header .header-1 .search-form {
+  background: var(--cp-surface);
+  border: 1px solid var(--cp-border);
+}
+
+html.dark .header .header-1 .search-form input,
+html.dark .header .header-1 .search-form label {
+  color: var(--cp-text);
+}
+
+html.dark .login-form-container {
+  background: rgba(0,0,0,.85);
+}
+
+html.dark .login-form-container form {
+  background: var(--cp-surface);
+  border: 1px solid var(--cp-border);
+  color: var(--cp-text);
+}
+
+html.dark .featured .featured-slider .box .image {
+  background: var(--cp-surface);
+}
+
+html.dark .featured .featured-slider .box .icons {
+  background: var(--cp-surface);
+  border-bottom: 1px solid var(--cp-border);
+}
+
+html.dark .featured .featured-slider .box .content {
+  background: var(--cp-surface);
+  color: var(--cp-text);
+}
+
+html.dark .swiper-button-next,
+html.dark .swiper-button-prev {
+  background: var(--cp-surface);
+  color: var(--cp-text);
+  border: 1px solid var(--cp-border);
+}
+
+html.dark .deal {
+  background: var(--cp-surface);
+  color: var(--cp-text);
+}
+
+html.dark .newsletter form h3 {
+  color: var(--cp-text);
+}
+
+html.dark .blogs .blogs-slider .box .content {
+  background: var(--cp-surface);
+  color: var(--cp-text);
+}
+
+html.dark .footer,
+html.dark .footer .box-container .box,
+html.dark .footer .credit {
+  background: var(--cp-surface);
+  border-top: 1px solid var(--cp-border);
+  color: var(--cp-muted);
+}
+
+html.dark .footer .credit span {
+  color: var(--cp-primary);
+}
+
+html.dark a,
+html.dark .btn {
+  color: var(--cp-primary);
+}
+
+html.dark a:hover,
+html.dark .btn:hover {
+  color: var(--cp-accent);
+}
+/* فیلدهای ورودی و تکست‌باکس‌ها در حالت دارک */
+html.dark input,
+html.dark textarea,
+html.dark select {
+  background-color: var(--cp-surface);
+  color: var(--cp-text);
+  border: 1px solid var(--cp-border);
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+  color: var(--cp-muted);
+}
+
+/* وقتی فوکوس میشه */
+html.dark input:focus,
+html.dark textarea:focus,
+html.dark select:focus {
+  outline: none;
+  border-color: var(--cp-primary);
+  box-shadow: 0 0 0 2px rgba(88,166,255,0.4);
+}
+html.dark .signup-form {
+  background: var(--cp-surface);
+  border: 1px solid var(--cp-border);
+  color: var(--cp-text);
+}
+
+html.dark .signup-form h3,
+html.dark .signup-form span {
+  color: var(--cp-text);
+}
+
+html.dark .signup-form .box {
+  background: var(--cp-surface);
+  border: 1px solid var(--cp-border);
+  color: var(--cp-text);
+}
